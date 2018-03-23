@@ -1,0 +1,435 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Cat's day</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+   </head>
+   <body data-spy="scroll" data-target="#mainNav" data-offset="20">
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3" id='mainNav'>
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#home">qGosha</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center">
+               <ul class="navbar-nav ml-auto text-uppercase font-weight-bold top-menu">
+                  <li class="nav-item">
+                     <a class="nav-link rounded" href="#home">Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link rounded" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link rounded" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link rounded" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <header class='head' id="home">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-6 mx-auto col-md-3 md-offset-1 align-self-md-center">
+                  <img class="img-fluid mb-3 d-block rounded-circle" alt='avatar' src='img/avatar.jpg'>
+               </div>
+               <div class="col-12 col-md-6 align-self-md-center">
+                  <h2 class=" hello_text text-center font-weight-bold">Hello there, my name is Igor...</h2>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <section id="about">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12 col-md-8 mx-auto">
+                     <div class="card text-center">
+                        <div class="card-header text-left">
+                           <ul class="nav nav-tabs card-header-tabs justify-content-between">
+                              <li class="nav-item">
+                                 <a class="nav-link active" href="#">About me</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#">My skills</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#">Other interests</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="#"> My education</a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card-body">
+                           <div class="card-body-section">
+                              <h5 class="card-title">— About me</h5>
+                              <p class="card-text">I'm Igor Morgunov, a self-taught JavaScript Developer. I'm based in Salt Lake City, UT and have a background in telecommunication technologies and customs clearance.<br>I like to explore things every day. I'm passionate about new technologies and science...</p>
+                           </div>
+                           <div class="card-body-section hide">
+                              <h5 class="card-title">— My skills</h5>
+                              <p class="card-text">Javascript, reactjs, html5, css3, jquery, es6, npm, responsive design, git, google scripting...</p>
+                           </div>
+                           <div class="card-body-section hide">
+                              <h5 class="card-title">— Other interests</h5>
+                              <p class="card-text">Space exploration, quantum physics, robots, cryogenics. I'm also into healthy and active lifestyle.
+                              </p>
+                           </div>
+                           <div class="card-body-section hide">
+                              <h5 class="card-title">— Education</h5>
+                              <p class="card-text">BS in multichannel telecommunication technologies, FreeCodeCamp, self-teaching
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="portfolio">
+            <div class="container-fluid py-5">
+               <div class="row">
+                  <h5 class="portfolio-title">— Projects</h5>
+               </div>
+               <div class="row">
+                  <div class=" col-8 col-md-4 mx-auto text-center">
+                     <figure class="figure">
+                        <div class="img-container">
+                           <div class="closer-look text-white position-absolute h-100 w-100 d-flex" data-toggle="modal" data-target="#portfolioModal1">
+                              <div class="closer-look-img my-auto text-center w-100" >
+                                 <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                           </div>
+                           <img src="img/tic-tac-toe.png" class="figure-img img-fluid rounded" alt="project">
+                        </div>
+                     </figure>
+                  </div>
+                  <div class=" col-8 col-md-4 mx-auto text-center">
+                     <figure class="figure">
+                        <div class="img-container">
+                           <div class="closer-look text-white position-absolute h-100 w-100 d-flex" data-toggle="modal" data-target="#portfolioModal2">
+                              <div class="closer-look-img my-auto text-center w-100" >
+                                 <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                           </div>
+                           <img src="img/weather.png" class="figure-img img-fluid rounded" alt="project">
+                        </div>
+                     </figure>
+                  </div>
+                  <div class="col-8 col-md-4 mx-auto text-center">
+                     <figure class="figure">
+                        <div class="img-container">
+                           <div class="closer-look text-white position-absolute h-100 w-100 d-flex"  data-toggle="modal" data-target="#portfolioModal3">
+                              <div class="closer-look-img my-auto text-center w-100">
+                                 <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                           </div>
+                           <img src="img/simon.png" class="figure-img img-fluid rounded" alt="project">
+                        </div>
+                     </figure>
+                  </div>
+                  <div class=" col-8 col-md-4 mx-auto text-center">
+                     <figure class="figure">
+                        <div class="img-container">
+                           <div class="closer-look text-white position-absolute h-100 w-100 d-flex" data-toggle="modal" data-target="#portfolioModal4">
+                              <div class="closer-look-img my-auto text-center w-100">
+                                 <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                           </div>
+                           <img src="img/calc.png" class="figure-img img-fluid rounded" alt="project">
+                        </div>
+                     </figure>
+                  </div>
+                  <div class=" col-8 col-md-4 mx-auto text-center">
+                     <figure class="figure">
+                        <div class="img-container">
+                           <div class="closer-look text-white position-absolute h-100 w-100 d-flex" data-toggle="modal" data-target="#portfolioModal5">
+                              <div class="closer-look-img my-auto text-center w-100">
+                                 <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                           </div>
+                           <img src="img/promodoro.png" class="figure-img img-fluid rounded" alt="project">
+                        </div>
+                     </figure>
+                  </div>
+                  <div class=" col-8 col-md-4 mx-auto text-center">
+                     <figure class="figure">
+                        <div class="img-container">
+                           <div class="closer-look text-white position-absolute h-100 w-100 d-flex" data-toggle="modal" data-target="#portfolioModal6">
+                              <div class="closer-look-img my-auto text-center w-100">
+                                 <i class="fa fa-search-plus fa-3x"></i>
+                              </div>
+                           </div>
+                           <img src="img/twitch.png" class="figure-img img-fluid rounded" alt="project">
+                        </div>
+                     </figure>
+                  </div>
+               </div>
+            </div>
+
+            </div>
+         </section>
+      </main>
+      <!-- <Footer> -->
+      <footer class="footer py-5 px-3" id="contact">
+      <div class="container-fluid">
+       <div class="footer-top">Get in touch.</div>
+       <p class="email">
+         <a title="Email" class="email-link" href="mailto:morgunovg90@gmail.com">morgunovg90@gmail.com</a>
+       </p>
+       <ul class="social list-inline">
+         <li class="list-inline-item"><a href="https://www.linkedin.com/in/igor-morgunov-b06b4890/" class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank">
+           <i class="fab fa-linkedin-in"></i>
+         </a>
+         </li>
+         <li class="list-inline-item"><a href="https://github.com/qGosha" class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank">
+           <i class="fab fa-github"></i>
+         </a>
+         </li>
+       </ul>
+       </div>
+      </footer>
+       <div class="copyright py-1 px-3">
+       <div class="container-fluid">
+        © Igor Morgunov 2018
+       </div>
+       </div>
+      <!-- Portfolio Modals -->
+      <!-- Portfolio Modal 1 -->
+      <div class="modal fade text-center" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Title" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+             <div class="container-fluid d-flex flex-column">
+                <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
+                  <i class="fa fa-2x fa-times"></i>
+                </a>
+                <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Tic Tac Toe Game</h2>
+                <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
+                 <span></span>
+                 <i class="fab fa-react fa-3x px-2"></i>
+                 <span></span>
+               </div>
+               </div>
+            </div>
+            <div class="modal-body">
+              <img src="img/tic-tac-toe.png" class="img-fluid rounded h-50 mb-5" alt="project">
+              <p class="mb-2"> 
+                Tic-tac-toe is a well-known game for two players, X and O, who take turns marking the spaces in a 3×3 grid. I was using React and CSSTransitionGroup package to build this game.
+              </p>
+            </div>
+            <div class="modal-footer">
+            <a href="https://qgosha.github.io/tic-tac-toe/" class="btn git btn-primary btn-sm rounded-pill" target="_blank">
+                <i class="fab fa-github"></i>
+                 View on GitHub
+              </a>
+               <a href="https://codepen.io/igor41/full/xYEyEK/" class="btn codepen btn-primary btn-sm rounded-pill" target="_blank">
+                <i class="fab fa-codepen"></i>
+                 View on Codepen
+              </a>
+              <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
+                <i class="fa fa-times"></i>
+                  Close Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Modal 2 -->
+      <div class="modal fade text-center" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Title" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+             <div class="container-fluid d-flex flex-column">
+                <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
+                  <i class="fa fa-2x fa-times"></i>
+                </a>
+                <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Weather App</h2>
+                <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
+                 <span></span>
+                 <i class="fab fa-js px-2" style="font-size: 3rem"></i>
+                 <span></span>
+               </div>
+               </div>
+            </div>
+            <div class="modal-body">
+              <img src="img/weather.png" class="img-fluid rounded h-50 mb-5" alt="project">
+              <p class="mb-2"> 
+                Simple app showing the current weather in your location. User can also check the weather in any location by clicking on the place name.
+              </p>
+            </div>
+            <div class="modal-footer">
+               <a href="https://codepen.io/igor41/full/oexExO/" class="btn codepen btn-primary btn-sm rounded-pill" target="_blank">
+                <i class="fab fa-codepen"></i>
+                 View on Codepen
+              </a>
+              <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
+                <i class="fa fa-times"></i>
+                  Close Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Modal 3 -->
+       <div class="modal fade text-center" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Title" aria-hidden="true">
+         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+              <div class="container-fluid d-flex flex-column">
+                 <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
+                   <i class="fa fa-2x fa-times"></i>
+                 </a>
+                 <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Simon Game</h2>
+                 <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
+                  <span></span>
+                  <i class="fab fa-react fa-3x px-2"></i>
+                  <span></span>
+                </div>
+                </div>
+             </div>
+             <div class="modal-body">
+               <img src="img/simon.png" class="img-fluid rounded h-50 mb-5" alt="project">
+               <p class="mb-2"> 
+                The game creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex. Strict button allows to choose if the game restarts after the user fails or starts at the last step.
+               </p>
+             </div>
+             <div class="modal-footer">
+             <a href="https://qgosha.github.io/Simon/" class="btn git btn-primary btn-sm rounded-pill" target="_blank">
+                 <i class="fab fa-github"></i>
+                  View on GitHub
+               </a>
+                <a href="https://codepen.io/igor41/full/NyORgY/" class="btn codepen btn-primary btn-sm rounded-pill" target="_blank">
+                 <i class="fab fa-codepen"></i>
+                  View on Codepen
+               </a>
+               <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
+                 <i class="fa fa-times"></i>
+                   Close Project
+               </a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- Portfolio Modal 4 -->
+        <div class="modal fade text-center" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Title" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+               <div class="container-fluid d-flex flex-column">
+                  <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-2x fa-times"></i>
+                  </a>
+                  <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Calculator</h2>
+                  <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
+                   <span></span>
+                   <i class="fab fa-js px-2" style="font-size: 3rem"></i>
+                   <span></span>
+                 </div>
+                 </div>
+              </div>
+              <div class="modal-body">
+                <img src="img/calc.png" class="img-fluid rounded h-50 mb-5" alt="project">
+                <p class="mb-2"> 
+                  The elementary JavaScript calculator. Built with jQuery library.
+                </p>
+              </div>
+              <div class="modal-footer">
+                 <a href="https://codepen.io/igor41/full/rpWXKx/" class="btn codepen btn-primary btn-sm rounded-pill" target="_blank">
+                  <i class="fab fa-codepen"></i>
+                   View on Codepen
+                </a>
+                <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
+                  <i class="fa fa-times"></i>
+                    Close Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+       <!-- Portfolio Modal 5 -->
+       <div class="modal fade text-center" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Title" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+               <div class="container-fluid d-flex flex-column">
+                  <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-2x fa-times"></i>
+                  </a>
+                  <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Promodoro Clock</h2>
+                  <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
+                   <span></span>
+                   <i class="fab fa-react fa-3x px-2"></i>
+                   <span></span>
+                 </div>
+                 </div>
+              </div>
+              <div class="modal-body">
+                <img src="img/promodoro.png" class="img-fluid rounded h-50 mb-5" alt="project">
+                <p class="mb-2"> 
+                  The Pomodoro Technique is a time management method. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros.
+                </p>
+              </div>
+              <div class="modal-footer">
+                 <a href="https://codepen.io/igor41/full/BJJXOe/" class="btn codepen btn-primary btn-sm rounded-pill" target="_blank">
+                  <i class="fab fa-codepen"></i>
+                   View on Codepen
+                </a>
+                <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
+                  <i class="fa fa-times"></i>
+                    Close Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+       <!-- Portfolio Modal 6 -->
+      <div class="modal fade text-center" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Title" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+             <div class="container-fluid d-flex flex-column">
+                <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
+                  <i class="fa fa-2x fa-times"></i>
+                </a>
+                <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Twitch streamers</h2>
+                <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
+                 <span></span>
+                 <i class="fab fa-react fa-3x px-2"></i>
+                 <span></span>
+               </div>
+               </div>
+            </div>
+            <div class="modal-body">
+              <img src="img/twitch.png" class="img-fluid rounded h-50 mb-5" alt="project">
+              <p class="mb-2"> 
+                This example fetches data from Twitch.tv's API and shows it.
+              </p>
+            </div>
+            <div class="modal-footer">
+               <a href="https://codepen.io/igor41/full/NwBrgO/" class="btn codepen btn-primary btn-sm rounded-pill" target="_blank">
+                <i class="fab fa-codepen"></i>
+                 View on Codepen
+              </a>
+              <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
+                <i class="fa fa-times"></i>
+                  Close Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Portfolio Modals -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="script/script.js"></script>
+      <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+   </body>
+</html>

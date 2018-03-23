@@ -1,0 +1,184 @@
+ html {
+     overflow-y: scroll !important;
+}
+ .modal-open {
+     padding-right: 0 !important;
+}
+ .body {
+     font-family: 'Playfair Display', sans-serif;
+}
+ .head {
+     padding: 5rem 0 6rem 0;
+     background-color: #dcf7e8;
+}
+ .hello_text {
+     font-size: 3.6vw;
+     color: #988080;
+}
+ .top-menu a.nav-link:hover, .navbar-brand:hover {
+     color: #18bc9c !important;
+}
+ .navbar-brand {
+     font-family: 'Mina', sans-serif;
+     font-weight: 900;
+     color: #da2f3f;
+}
+ #mainNav .navbar-nav li.nav-item a.nav-link.active {
+     color: #18bc9c;
+}
+ #mainNav .navbar-nav li.nav-item a.active:hover {
+     color: #fff !important;
+}
+ .card {
+     font-family: 'Mina', sans-serif;
+}
+ .hide {
+     display: none;
+}
+ .card-body {
+     background-color: #f0f0f0;
+     text-align: left;
+}
+ .card-title {
+     text-transform: uppercase;
+     color: red;
+}
+ #about {
+     padding: 6rem 0;
+}
+ #portfolio {
+     background-color: #dcf7e8;
+}
+ .portfolio-title {
+     text-transform: uppercase;
+     color: red;
+     padding: 4%;
+     margin: auto;
+     text-align: center;
+     white-space: nowrap;
+}
+ #portfolio .img-container {
+     position: relative;
+     width: 80%;
+     vertical-align: middle;
+     border-style: solid;
+     padding: 1rem;
+     border-color: rgba(169, 169, 169, 0.4);
+     border-width: .5vw;
+     margin: 0 auto 0 auto;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+}
+ .closer-look:hover {
+     opacity: 1;
+}
+ .closer-look {
+     display: flex;
+     color: #fff;
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(24, 188, 156, 0.9);
+     padding: inherit;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     opacity: 0;
+     cursor: pointer;
+     transition: all ease .5s;
+}
+ .modal-divider span {
+     width: 30%;
+     height: 2px;
+     background-color: #000 !important;
+     display: inline-block !important;
+}
+ .footer {
+     background-color: #7893ad;
+     text-align: right;
+}
+ .btn-social {
+     font-size: 20px;
+     width: 3.25rem;
+     height: 3.25rem;
+     padding: 13px;
+     line-height: 2rem;
+     border-width: 2px;
+     color: #da2f3f;
+}
+ .email .email-link {
+     font-family: 'Mina', sans-serif;
+     font-weight: 900;
+     color: #da2f3f;
+     font-size: 1.3vw;
+}
+ .footer-top {
+     color: #da2f3f;
+     font-size: 2.7vw;
+     margin-bottom: 1rem;
+}
+ .copyright {
+     text-align: right;
+     color: #a9a9a9 !important;
+     font-family: 'Mina', sans-serif;
+     background-color: #585858;
+}
+ @media (max-width: 450px) {
+     .modal-footer {
+         flex-direction: column;
+         flex-wrap: wrap;
+         align-items: stretch !important;
+    }
+     .modal-footer a.btn {
+         margin: 0;
+    }
+}
+ @media (max-width: 574.46809px) {
+     .line1 {
+         font-size: 27px;
+    }
+     .modal-body img {
+         height: 220px !important;
+    }
+}
+ @media (min-width: 455px) {
+     .line1 {
+         font-size: 27px;
+    }
+}
+ @media (min-width: 574.46809px) {
+     #about .nav-item {
+         width: 25%;
+    }
+}
+ @media (min-width: 360px) and (max-width: 490px) {
+     .card-header-tabs {
+         flex-wrap: nowrap;
+    }
+}
+ @media (max-width: 768px) {
+     .card, .modal-body p {
+         font-size: 14px;
+    }
+     .card-body h5, .portfolio-title {
+         font-size: 16px;
+    }
+     .card-body {
+         overflow: hidden;
+    }
+     .footer-top {
+         font-size: 20px !important;
+    }
+}
+ @media (max-width: 1538.46154px) {
+     .email .email-link {
+         font-size: 20px !important;
+    }
+}
+ @media (min-width: 768px) {
+     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+         color: #fff;
+         background: #18bc9c;
+    }
+}
