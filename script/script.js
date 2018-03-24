@@ -21,13 +21,9 @@ $("#mainNav a[href^='#']").on('click', function(e) {
 
     $('html, body').animate({
         scrollTop: $(hash).offset().top
-    }, 400, function() {
-        window.location.hash = hash;
-    });
+    }, 400);
+    
+ $(".navbar-collapse").collapse("hide");
 
 });
 
-
-$(".collapse-trigger-link").click(function() {
-        $(".navbar-collapse").collapse("hide");
-    })

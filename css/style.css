@@ -11,7 +11,7 @@
      padding: 5rem 0 6rem 0;
      background-color: #dcf7e8;
 }
- .hello_text {
+ .hello-text {
      font-size: 3.6vw;
      color: #988080;
 }
@@ -141,6 +141,9 @@
      .modal-body img {
          height: 220px !important;
     }
+    .hello-text {
+        font-size: 24px;
+    }
 }
  @media (min-width: 455px) {
      .line1 {
@@ -151,6 +154,7 @@
      #about .nav-item {
          width: 25%;
     }
+    
 }
  @media (min-width: 360px) and (max-width: 490px) {
      .card-header-tabs {
@@ -169,6 +173,9 @@
     }
      .footer-top {
          font-size: 20px !important;
+    }
+    .head {
+        padding-bottom: 2rem;
     }
 }
  @media (max-width: 1538.46154px) {
