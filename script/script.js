@@ -26,3 +26,8 @@ $("#mainNav a[href^='#']").on('click', function(e) {
     });
 
 });
+
+
+$(".collapse-trigger-link").click(function() {
+        $(".navbar-collapse").collapse("hide");
+    })

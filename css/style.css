@@ -15,7 +15,7 @@
      font-size: 3.6vw;
      color: #988080;
 }
- .top-menu a.nav-link:hover, .navbar-brand:hover {
+ .top-menu a.nav-link:hover {
      color: #18bc9c !important;
 }
  .navbar-brand {
