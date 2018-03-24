@@ -1,3 +1,8 @@
+
+$(".collapse-trigger-link").click(function() {
+        $(".navbar-collapse").collapse("hide");
+    })
+
 $('#about .nav-item .nav-link').click(function(event) {
     event.preventDefault();
     if ($(this).hasClass('active')) return;
@@ -24,5 +29,5 @@ $("#mainNav a[href^='#']").on('click', function(e) {
     }, 400, function() {
         window.location.hash = hash;
     });
-
 });
+
