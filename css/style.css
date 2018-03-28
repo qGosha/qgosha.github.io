@@ -4,34 +4,49 @@
  .modal-open {
      padding-right: 0 !important;
 }
- .body {
-     font-family: 'Playfair Display', sans-serif;
+ body {
+     font-family: 'Mina', sans-serif;
 }
  .head {
      padding: 5rem 0 6rem 0;
-     background-color: #dcf7e8;
+     background-color: #73dec938;
 }
  .hello-text {
      font-size: 3.6vw;
      color: #988080;
 }
- .top-menu a.nav-link:hover {
-     color: #18bc9c !important;
+ #page .top-menu a.nav-link:hover {
+     color: #18bc9c;
 }
- .navbar-brand {
-     font-family: 'Mina', sans-serif;
+ #page .navbar-brand {
      font-weight: 900;
-     color: #da2f3f;
+     color: rgba(0,0,0,.5);
 }
+
+#page .navbar-brand:hover {
+    color: #18bc9c;
+}
+.nav-tabs .nav-link.active {
+    text-shadow: none;
+    color: #18bc9c;
+}
+
+.nav-tabs .nav-link {
+    text-shadow: 0px 3px #73DEC9;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.nav-tabs .nav-link:hover {
+    color: #5A90DF;
+}
+
  #mainNav .navbar-nav li.nav-item a.nav-link.active {
      color: #18bc9c;
 }
  #mainNav .navbar-nav li.nav-item a.active:hover {
      color: #fff !important;
 }
- .card {
-     font-family: 'Mina', sans-serif;
-}
+
  .hide {
      display: none;
 }
@@ -41,18 +56,18 @@
 }
  .card-title {
      text-transform: uppercase;
-     color: red;
+     color: #2765C0;
 }
  #about {
      padding: 6rem 0;
 }
  #portfolio {
-     background-color: #dcf7e8;
+     background-color: #73dec938;
 }
  .portfolio-title {
      text-transform: uppercase;
-     color: red;
-     padding: 4%;
+     color: #2765C0;
+     padding: 1rem 0 3rem 0;
      margin: auto;
      text-align: center;
      white-space: nowrap;
@@ -88,14 +103,14 @@
      cursor: pointer;
      transition: all ease .5s;
 }
- .modal-divider span {
+ #page .modal-divider span {
      width: 30%;
      height: 2px;
-     background-color: #000 !important;
-     display: inline-block !important;
+     background-color: #000;
+     display: inline-block;
 }
  .footer {
-     background-color: #7893ad;
+     background-color: #18bc9c;
      text-align: right;
 }
  .btn-social {
@@ -105,24 +120,22 @@
      padding: 13px;
      line-height: 2rem;
      border-width: 2px;
-     color: #da2f3f;
+     color: #fff;
 }
  .email .email-link {
-     font-family: 'Mina', sans-serif;
      font-weight: 900;
-     color: #da2f3f;
+     color: #fff;
      font-size: 1.3vw;
 }
  .footer-top {
-     color: #da2f3f;
+     color: #fff;
      font-size: 2.7vw;
      margin-bottom: 1rem;
 }
- .copyright {
+ #page .copyright {
      text-align: right;
-     color: #a9a9a9 !important;
-     font-family: 'Mina', sans-serif;
-     background-color: #585858;
+     color: #a9a9a9;
+     background-color: rgba(0,0,0,.5);
 }
  @media (max-width: 450px) {
      .modal-footer {
