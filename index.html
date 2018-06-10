@@ -98,18 +98,18 @@
                   <h5 class="portfolio-title">— Projects</h5>
                </div>
                <div class="row">
-                  <div class=" col-8 col-md-4 mx-auto text-center">
-                     <figure class="figure">
-                        <div class="img-container">
-                           <div class="closer-look text-white position-absolute h-100 w-100 d-flex" data-toggle="modal" data-target="#portfolioModal1">
-                              <div class="closer-look-img my-auto text-center w-100" >
-                                 <i class="fa fa-search-plus fa-3x"></i>
-                              </div>
-                           </div>
-                           <img src="img/tic-tac-toe.png" class="figure-img img-fluid rounded" alt="project">
-                        </div>
-                     </figure>
-                  </div>
+                 <div class=" col-8 col-md-4 mx-auto text-center">
+                    <figure class="figure">
+                       <div class="img-container">
+                          <div class="closer-look text-white position-absolute h-100 w-100 d-flex" data-toggle="modal" data-target="#portfolioModal1">
+                             <div class="closer-look-img my-auto text-center w-100" >
+                                <i class="fa fa-search-plus fa-3x"></i>
+                             </div>
+                          </div>
+                          <img src="img/calorie_counter.png" class="figure-img img-fluid rounded" alt="project">
+                       </div>
+                    </figure>
+                 </div>
                   <div class=" col-8 col-md-4 mx-auto text-center">
                      <figure class="figure">
                         <div class="img-container">
@@ -118,7 +118,7 @@
                                  <i class="fa fa-search-plus fa-3x"></i>
                               </div>
                            </div>
-                           <img src="img/weather.png" class="figure-img img-fluid rounded" alt="project">
+                           <img src="img/tic-tac-toe.png" class="figure-img img-fluid rounded" alt="project">
                         </div>
                      </figure>
                   </div>
@@ -210,7 +210,43 @@
                 <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
                   <i class="fa fa-2x fa-times"></i>
                 </a>
-                <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Tic Tac Toe Game</h2>
+                <h2 class="modal-title align-self-center">Calorie Counter</h2>
+                <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
+                 <span></span>
+                 <i class="fab fa-react fa-3x px-2"></i>
+                 <span></span>
+               </div>
+               </div>
+            </div>
+            <div class="modal-body">
+              <img src="img/calorie_counter.png" class="img-fluid rounded h-50 mb-5" alt="project">
+              <p class="mb-2">
+                I built this app based on free version of nutrition API in order to learn Redux and its uses with React. This is simple calorie-counter allows a user to track consumed food. User can search food then add it to your basket, modify quantity and serving size, log food to your food log. The calendar component gives a user the opportunity to track his progress on not exceeding the daily calorie limit.
+              </p>
+            </div>
+            <div class="modal-footer">
+            <a href="https://qgosha.github.io/calorie_counter/" class="btn git btn-primary btn-sm rounded-pill" target="_blank">
+                <i class="fab fa-github"></i>
+                 View on GitHub
+              </a>
+              <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
+                <i class="fa fa-times"></i>
+                  Close Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Modal 2 -->
+      <div class="modal fade text-center" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Title" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+             <div class="container-fluid d-flex flex-column">
+                <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
+                  <i class="fa fa-2x fa-times"></i>
+                </a>
+                <h2 class="modal-title align-self-center">Tic Tac Toe Game</h2>
                 <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
                  <span></span>
                  <i class="fab fa-react fa-3x px-2"></i>
@@ -241,42 +277,6 @@
           </div>
         </div>
       </div>
-      <!-- Portfolio Modal 2 -->
-      <div class="modal fade text-center" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Title" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-             <div class="container-fluid d-flex flex-column">
-                <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
-                  <i class="fa fa-2x fa-times"></i>
-                </a>
-                <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Weather App</h2>
-                <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
-                 <span></span>
-                 <i class="fab fa-js px-2" style="font-size: 3rem"></i>
-                 <span></span>
-               </div>
-               </div>
-            </div>
-            <div class="modal-body">
-              <img src="img/weather.png" class="img-fluid rounded h-50 mb-5" alt="project">
-              <p class="mb-2">
-                Simple app showing the current weather in your location. User can also check the weather in any location by clicking on the place name.
-              </p>
-            </div>
-            <div class="modal-footer">
-               <a href="https://codepen.io/igor41/full/oexExO/" class="btn codepen btn-primary btn-sm rounded-pill" target="_blank">
-                <i class="fab fa-codepen"></i>
-                 View on Codepen
-              </a>
-              <a href="#" class="btn btn-danger btn-sm rounded-pill" data-dismiss="modal">
-                <i class="fa fa-times"></i>
-                  Close Project
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- Portfolio Modal 3 -->
        <div class="modal fade text-center" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Title" aria-hidden="true">
          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -286,7 +286,7 @@
                  <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
                    <i class="fa fa-2x fa-times"></i>
                  </a>
-                 <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Simon Game</h2>
+                 <h2 class="modal-title align-self-center"  >Simon Game</h2>
                  <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
                   <span></span>
                   <i class="fab fa-react fa-3x px-2"></i>
@@ -326,7 +326,7 @@
                   <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
                     <i class="fa fa-2x fa-times"></i>
                   </a>
-                  <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Calculator</h2>
+                  <h2 class="modal-title align-self-center"  >Calculator</h2>
                   <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
                    <span></span>
                    <i class="fab fa-js px-2" style="font-size: 3rem"></i>
@@ -362,7 +362,7 @@
                   <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
                     <i class="fa fa-2x fa-times"></i>
                   </a>
-                  <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Promodoro Clock</h2>
+                  <h2 class="modal-title align-self-center"  >Promodoro Clock</h2>
                   <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
                    <span></span>
                    <i class="fab fa-react fa-3x px-2"></i>
@@ -398,7 +398,7 @@
                 <a href="#" class="close-button d-none d-md-block align-self-end" data-dismiss="modal" aria-label="Close">
                   <i class="fa fa-2x fa-times"></i>
                 </a>
-                <h2 class="modal-title align-self-center" id="exampleModalLongTitle">Wikipedia viewer</h2>
+                <h2 class="modal-title align-self-center"  >Wikipedia viewer</h2>
                 <div class="modal-divider d-flex align-items-center justify-content-center my-2 w-100 text-primary align-self-center">
                  <span></span>
                  <i class="fab fa-react fa-3x px-2"></i>
