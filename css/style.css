@@ -108,8 +108,15 @@
      display: inline-block;
 }
  .footer {
+     background-image: url(../img/bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
      background-color: #18bc9c;
      text-align: right;
+}
+#contact {
+    
 }
  .btn-social {
      font-size: 20px;
