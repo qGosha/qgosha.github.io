@@ -115,9 +115,7 @@
      background-color: #18bc9c;
      text-align: right;
 }
-#contact {
-    
-}
+
  .btn-social {
      font-size: 20px;
      width: 3.25rem;
@@ -201,11 +199,11 @@
     }
 }
 
-@media (min-width: 992px) {
-  .gif {
+/* @media (min-width: 992px) {
+  .modal-body {
     height: 50%;
   }
-}
+} */
 
  @media (min-width: 768px) {
      #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
