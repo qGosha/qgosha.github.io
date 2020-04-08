@@ -211,3 +211,9 @@
          background: #18bc9c;
     }
 }
+
+@media (max-width: 450px) {
+    .modal-footer a.btn:not(:first-child) {
+        margin-top: 8px;
+    }
+}
